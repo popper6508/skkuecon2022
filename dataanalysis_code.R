@@ -197,7 +197,7 @@ stargazer(lm.r, type = 'text', keep.stat = c("n","rsq"))
 
 
 ###################총괄 데이터
-all_20 <- read.csv("C:/Users/Owner/Desktop/김겨레/대학교/2022 경제대학 학술대회/실증 모형/데이터 모음.csv", fileEncoding="euc-kr")
+all_20 <- read.csv("데이터 모음.csv", fileEncoding="euc-kr")
 
 ###상관분석과 데이터 선별
 cor.test(all_20$p2010.2021, all_20$gradu2010)
