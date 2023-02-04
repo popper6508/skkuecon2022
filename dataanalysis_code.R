@@ -296,7 +296,7 @@ t.test(noncapital_2020, m=1.041992)
 
 
 ###개발촉진지구
-x1111 <- read.csv("C:/Users/Owner/Desktop/김겨레/대학교/2022 경제대학 학술대회/실증 모형/개발촉진.csv", fileEncoding="euc-kr")
+x1111 <- read.csv("개발촉진.csv", fileEncoding="euc-kr")
 x1111[,2:4] <- as.numeric(x1111[,2:4])
 
 t.test(x1111$X2010[1:10], x1111$X2010[11:20])
